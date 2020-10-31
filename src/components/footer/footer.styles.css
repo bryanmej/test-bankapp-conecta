@@ -1,0 +1,45 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+  background: rgb(247, 248, 249);
+}
+
+footer div:nth-child(1) p span {
+  display: block;
+  color: rgb(104, 139, 139);
+  font-weight: bold;
+}
+
+footer div:nth-child(1) p:nth-child(2) {
+  width: 75%;
+  color: gray;
+}
+
+footer div:nth-child(2) {
+  display: flex;
+  align-items: center;
+}
+
+footer p {
+  text-align: left;
+}
+
+footer a {
+  text-decoration: none;
+  position: relative;
+  color: gray;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+footer a::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  top: -7px;
+  right: 112%;
+  position: absolute;
+  border-radius: 50%;
+  border: 8px solid rgb(104, 139, 139);
+}
