@@ -1,0 +1,93 @@
+.panel-cuenta {
+  display: flex;
+  background: rgb(244, 245, 246);
+  padding: 3rem;
+  position: relative;
+}
+
+.panel-cuenta div:nth-child(1) {
+  width: 30%;
+}
+
+.panel-cuenta div:nth-child(1) a {
+  display: flex;
+  width: 74%;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 2px dashed rgb(73, 226, 202);
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(73, 226, 202);
+  text-decoration: none;
+}
+
+.panel-cuenta div:nth-child(1) a .plus {
+  display: flex;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  position: relative;
+  border: 1px solid rgb(73, 226, 202);
+  justify-content: center;
+  align-items: center;
+}
+
+.panel-cuenta div:nth-child(1) a .plus::before {
+  content: "";
+  width: 50%;
+  height: 2px;
+  background: rgb(73, 226, 202);
+  position: absolute;
+}
+
+.panel-cuenta div:nth-child(1) a .plus::after {
+  content: "";
+  width: 2px;
+  height: 50%;
+  background: rgb(73, 226, 202);
+  position: absolute;
+}
+
+.panel-cuenta div:nth-child(1) a span {
+  font-weight: bold;
+}
+
+.panel-cuenta .movi {
+  height: 650px;
+  overflow: scroll;
+  margin-top: 3rem;
+  width: 70%;
+}
+
+.panel-cuenta div:nth-child(2) h3 {
+  position: absolute;
+  top: 0;
+  padding-top: 3rem;
+}
+
+.panel-cuenta div h3 {
+  text-align: left;
+  color: gray;
+  font-size: 16px;
+}
+
+.panel-cuenta div:nth-child(2) table {
+  background: #fff;
+  border-spacing: 0;
+  width: 100%;
+}
+
+.panel-cuenta div:nth-child(2) table thead,
+.panel-cuenta div:nth-child(2) table tbody {
+  text-align: left;
+}
+
+.panel-cuenta div:nth-child(2) table thead th {
+  border-bottom: 6px solid rgb(244, 245, 246);
+  padding: 1rem 1rem 0.5rem;
+}
+
+.panel-cuenta div:nth-child(2) table tbody td {
+  border-bottom: 3px solid rgb(244, 245, 246);
+  padding: 1rem;
+}

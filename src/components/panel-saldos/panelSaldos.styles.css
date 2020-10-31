@@ -1,0 +1,20 @@
+.panel-saldos {
+  display: flex;
+  background: rgb(0, 69, 95);
+  padding: 2rem 3rem;
+}
+
+.panel-saldos .card-info:nth-child(1) p:nth-child(2) {
+  color: rgb(73, 226, 202);
+  font-size: 30px;
+  font-weight: bold;
+  padding-right: 1rem;
+}
+
+.panel-saldos .card-info:nth-child(2) p:nth-child(2),
+.panel-saldos .card-info:nth-child(3) p:nth-child(2) {
+  color: gray;
+  font-size: 30px;
+  font-weight: bold;
+  padding-right: 1rem;
+}
